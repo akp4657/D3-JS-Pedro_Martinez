@@ -1,0 +1,187 @@
+/* MAIN CSS FILE FOR PROJECT */
+
+/* Removing ticks */
+#leftAxis > g > line {
+    display: none;
+}
+
+#leftAxis > g > text {
+    vertical-align: auto;
+    color: black;
+    font-weight: 500;
+    
+}
+
+#leftAxis, #bottomAxis, text {
+    font-family: "Georgia";
+    color: black;
+    font-weight: 500;
+
+}
+
+body {
+    text-align: center;
+}
+
+body {
+    background-color: #e9e9e9;
+}
+
+p, h1, h2 {
+    color: #4d648d;
+}
+
+h1 {
+    color: #0d0d0d;
+}
+
+h2 {
+    color: #0d0d0d;
+}
+
+#textDiv {
+    background-color:#dddddd;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+    line-height: 2.5em;
+}
+
+
+#chart1Div {
+    height: 800px;
+    margin: 0 auto;
+    margin-right: 190px;
+    padding: 50px;
+    width: 75%;
+    margin-top: -20%;
+}
+
+.mySlides {
+  height: 800px;
+  margin: 0 auto;
+  border-radius: 25px;
+  width: 50%;
+  background-color: #7f8e9e;
+  position: relative;
+  padding-top: 10%;
+
+}
+
+#chart1, #chart2 {
+  cursor: pointer;
+
+}
+
+  /* Used the tooltip CSS from the demo*/
+  #tooltip, #tooltipScatter, #tooltipLineScatter {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    z-index: 100;
+  }
+  
+  #tooltip.hidden, #tooltipScatter.hidden, #tooltipLineScatter.hidden {
+    display: none;
+  }
+  
+  #tooltip p, #tooltipScatter p, #tooltipLineScatter p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #Pedro{
+      fill: #BD3039;
+  }
+
+  #Clayton{ 
+    fill: #005A9C;
+  }
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  margin: 0 auto;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 6%;
+  width: auto;
+  margin: 0 auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: #283655;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+

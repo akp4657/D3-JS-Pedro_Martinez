@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>Pedro Martinez</title>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="finalProject.css">
+  </head>
+
+  <body>
+    <div id="tooltip" class="hidden">
+			<p><strong id="dayValue">Important Label Heading</strong></p>
+			<p><span id="value">100</span></p>
+    </div>
+    
+    <div id="tooltipScatter" class="hidden">
+			<p><strong id="dayValue">Important Label Heading</strong></p>
+			<p><span id="value">100</span></p>
+    </div>
+
+    <div id="tooltipLineScatter" class="hidden">
+			<p><strong id="dayValue">Important Label Heading</strong></p>
+			<p><span id="value">100</span></p>
+    </div>
+    
+
+    <h1>Pedro Martinez -- The G.O.A.T?</h1>
+
+  <div class = "slideshow-container">
+
+    <div class ="mySlides fade">
+      <div id ='textDiv'>
+        <h3 id='introText'>Pedro Martinez was one of the most dominant pitchers in baseball. His prime was in the late 90s 
+          and early 2000s, the height of the steroid era. In that environment, Pedro was simply unhittable, and put offenses 
+          to a screeching halt every time he went up to the mound. It’s not outlandish to say this, but I’m going to make a 
+          case for Pedro Martinez being the greatest pitcher of all time. The goat (G.O.A.T), if you will.</h3>
+      </div>
+    </div>
+
+    <div class ="mySlides fade">
+      <div id ='textDiv'>
+        <h3 id='introText'>Now, I took a random list from a Google search “Greatest Pitchers of All Time” and just chose one. 
+          All of these pitchers are generally going to be on this list, especially the modern ones such as Pedro, Kershaw, Ryan, 
+          and Johnson. They’re undisputed kings of baseball. We’ll look at two stats between these consensus pitchers: 
+          <span style='color: #ffffff; -webkit-text-stroke: .35px black;'>ERA</span> and <span style='color: #d0e1f9; -webkit-text-stroke: .35px black;'>ERA+</span>, each being the average of the 
+          player’s career. ERA being Earned Run Average, which indicates the average runs scored when a pitcher is on the mound. 
+          ERA+ is the same stat, adjusted to the player’s ballpark/run environment, where 100 is average. </h3>
+      </div>
+    </div>
+
+    <div class ="mySlides fade">
+      <div id ='chart1Div'>
+        <svg id='chart1'></svg>
+      </div>
+    </div>
+
+    <div class ="mySlides fade">
+      <div id ='textDiv'>
+        <h3 id='introText'>A huge jump on the chart for Pedro. He had a relatively high ERA on that list comparatively but remember 
+          Pedro was pitching at the height of the steroid era. Still, he wasn’t first on that list. It was 
+          Clayton Kershaw, an active pitcher for the LA Dodgers. He’s pretty good too. Let’s look 
+          a little closer.  </h3>
+      </div>
+    </div>
+
+    <div class ="mySlides fade">
+      <div id ='textDiv'>
+        <h3 id='introText'>So, let’s take the 2019 pitchers who had above 80 innings pitched, meaning that they were a significant part of 
+          the team either as a reliever or a starter. Then, let’s stick <span style='color: #005A9C'>Clayton Kershaw</span> in there, but at 
+          his peak 2013 season. Let’s also put <span style='color: #BD3039'>Pedro Martinez</span> in there at his peak 1999 season. We’ll look 
+          at four stats: ERA, ERA+, FIP, and SO/9. You already know about <span style='color: #ffffff; -webkit-text-stroke: .35px black;'>ERA</span> and 
+          <span style='color: #d0e1f9; -webkit-text-stroke: .35px black;'>ERA+</span>, so I’ll skip the explanation. Let’s talk about <span style='color: #4d648d'>FIP</span> though. 
+          FIP stands for Fielding Independent Pitching, which just looks at the true outcomes between a batter and a pitcher: A walk, strikeout, 
+          or hit. It then uses that to calculate the ERA. An ERA that isn’t reliant on your team. Nice. <span style='color: #283655'>SO/9</span>? 
+          Well, the average strikeouts a pitcher acquires over 9 innings. So, let’s see what we get.</h3>
+      </div>
+    </div>
+
+    <div class ="mySlides fade">
+      <div id='chart1Div'>
+        <svg id='chart2'></svg>
+      </div>
+    </div>
+
+    <div class ="mySlides fade">
+      <div id ='textDiv'>
+        <h3 id='introText'>Clayton had more production as far as inning pitched, and he did have a monstrous ERA of 1.83, but Pedro outperformed 
+          him in every other metric, which is unbelievable considering 1999 was, again, <strong>the height of the steroid era</strong>.  
+          These aren’t all tell-all stats, but it’s still unbelievably impressive. We’ll take a look at one more chart before you go. </h3>
+      </div>
+    </div>
+
+    <div class ="mySlides fade">
+      <div id ='textDiv'>
+        <h3 id='introText'>I forgot to mention, <span style='color: #BD3039'>Pedro Martinez</span> is in the Baseball Hall of Fame, he was inducted in 
+          2015. We’ll be looking at a chart that has every Hall of Famer’s <span style='color: #ffffff; -webkit-text-stroke: .35px black;'>ERA</span> and <span style='color: #4d648d'>WAR</span>.
+           We already know all about ERA, but let’s go over WAR, or Wins Above Replacement. It essentially calculated the value of a player to their 
+           team, using the metric “How many wins could we get if we replaced this guy?” Average WAR in the Hall of Fame for pitchers is 69, the 
+           average ERA is 3.00. I’m not making that up.</h3>
+      </div>
+    </div>
+
+    <div class ="mySlides fade">
+      <div id ='chart1Div'>
+        <svg id='chart3'></svg>
+      </div>
+    </div>
+
+    <div class ="mySlides fade">
+      <div id ='textDiv'>
+        <h3 id='introText'>What strikes me the most about this chart is just many of the other Hall of Famers have so many more innings pitched that Pedro, 
+          yet Pedro was still more productive based on WAR, and we already know his ERA is below the average, his being 2.93. Many of the other pitchers
+           on this list could be considered stat accumulators, as nobody in the future will likely ever reach those numbers due to the increasing 
+           physicality and limiting pitch counts on pitchers. It’s hard to claim the goat in anything, it takes a lot of cherry-picking and hoping others 
+           agree with you. Still, pitching in the steroid era and getting these types of numbers is no easy task. I don’t think any man could do it. Maybe
+            a goat could though. I like to think there’s one named Pedro Martinez. </h3>
+      </div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+
+    <script src='./finalProject.js'></script>
+    <script>
+      // https://www.w3schools.com/howto/howto_js_slideshow.asp
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex-1].style.display = "block";
+      } 
+    </script>
+  </body>
+</html>
