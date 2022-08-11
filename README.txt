@@ -1,3 +1,5 @@
+Project from RIT using D3.js to have a conversation about the greates baseball pitcher of all time.
+
 I once again used data from baseball-reference.com. This time, I wanted to explore the conversation of the greatest pitcher of all-time. I chose Pedro Martinez and used consensus lists, the hall of fame list, and compared his peak season to another phenom's season. 
 
 The first chart was the conesnsus bar chart, the second included the two peak pitchers, putting them against every 2019 pitcher who pitched more than 80 innings. The last chart was a Clevend Line Chart comparing Hall of Fame pitcher statistics. I feel the scatter plot is incredibly effective when analyzing pitcher data. In fact, I think it's the best visualization to use, a lot of baseball visualizations use it.
